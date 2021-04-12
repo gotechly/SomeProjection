@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
     }
 }
 
